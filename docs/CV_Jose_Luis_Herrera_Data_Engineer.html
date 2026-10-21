@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jose Luis Herrera Reyna - Data & Analytics Engineer (AI-First) CV</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; padding: 0 !important; margin: 0 !important; }
+      .cv-sheet { box-shadow: none !important; border: none !important; max-width: 100% !important; padding: 18px 28px !important; }
+    }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-900 antialiased py-8 px-4">
+  <!-- Barra de controles (No se imprime en el PDF) -->
+  <div class="no-print max-w-4xl mx-auto mb-6 bg-slate-900 text-white rounded-xl p-4 flex flex-wrap items-center justify-between gap-4 shadow-lg">
+    <div>
+      <h1 class="font-bold text-base">📄 Generador de CV ATS-Friendly — José Luis Herrera Reyna</h1>
+      <p class="text-xs text-slate-300">Elige el idioma (Inglés para EE. UU./Remoto Global o Español para LATAM) y haz clic en "Guardar como PDF".</p>
+    </div>
+    <div class="flex items-center gap-2">
+      <button onclick="setLang('en')" id="btn-en" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-500 text-slate-950 transition">
+        🇺🇸 English Version (US / Global)
+      </button>
+      <button onclick="setLang('es')" id="btn-es" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-200 hover:bg-slate-700 transition">
+        🇪🇸 Versión Español (LATAM / MX)
+      </button>
+      <button onclick="window.print()" class="px-4 py-1.5 rounded-lg text-xs font-bold bg-sky-500 text-slate-950 hover:bg-sky-400 transition ml-2">
+        🖨️ Guardar como PDF (Ctrl+P)
+      </button>
+    </div>
+  </div>
+
+  <!-- HOJA DE CV EN INGLÉS (DEFAULT PARA PORTALES REMOTOS EN USD) -->
+  <div id="cv-en" class="cv-sheet max-w-4xl mx-auto bg-white border border-slate-200 rounded-xl shadow-md p-8 md:p-10 space-y-5">
+    <!-- Header -->
+    <header class="border-b-2 border-slate-800 pb-4 flex flex-col md:flex-row md:items-end justify-between gap-3">
+      <div>
+        <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight text-slate-900 uppercase">
+          José Luis Herrera Reyna
+        </h1>
+        <p class="text-base font-bold text-sky-700 mt-0.5">
+          Data &amp; Analytics Engineer (AI-First) | SQL • Python • PySpark • Medallion Lakehouse • BI Storytelling
+        </p>
+      </div>
+      <div class="text-xs md:text-right space-y-0.5 text-slate-700 font-medium">
+        <p>📍 Durango, México (CST / US Central Timezone — US &amp; LATAM Remote)</p>
+        <p>📧 luisblueberry@gmail.com &nbsp;|&nbsp; 📱 +52 618 332 9565</p>
+        <p>💻 GitHub: <span class="text-sky-700 font-semibold">github.com/blueberrymx/bigdata-ai-stack</span></p>
+      </div>
+    </header>
+
+    <!-- Professional Summary -->
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+        Professional Summary
+      </h2>
+      <p class="text-xs leading-relaxed text-slate-800">
+        Results-driven <strong>Data &amp; Analytics Engineer (AI-First)</strong> combining hands-on architecture in <strong>Medallion Lakehouse pipelines (Bronze/Silver/Gold), Star Schema modeling, SQL, Python, DuckDB, Apache Parquet, and PySpark Structured Streaming</strong> with <strong>20+ years of executive digital operations and visual data storytelling</strong> for <strong>800+ B2B clients across Mexico and the United States</strong>. Expert at orchestrating AI Agents to accelerate ETL/ELT development, enforce automated 10-point Data Quality observability, and translate raw multi-source data into high-impact executive KPIs.
+      </p>
+    </section>
+
+    <!-- Core Technical Stack -->
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+        Technical Skills &amp; Stack
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1.5 text-xs text-slate-800">
+        <p><strong>• Data Engineering &amp; Lakehouse:</strong> Medallion Architecture (Bronze/Silver/Gold), Star Schema (Fact/Dimension Modeling), Apache Parquet (ZSTD Compression), Delta Lake concepts.</p>
+        <p><strong>• Query &amp; Distributed Processing:</strong> Advanced SQL (Multi-table JOINs, Window Functions <code>QUALIFY ROW_NUMBER</code>, Aggregations), DuckDB OLAP, Python 3.12, PySpark Structured Streaming.</p>
+        <p><strong>• Streaming &amp; Data Quality:</strong> Stateful Deduplication (<code>withWatermark</code>), Broadcast Hash Joins (<code>F.broadcast</code>), Dead-Letter / Quarantine Pattern, Automated SQL Data Quality Testing &amp; Reconciliation.</p>
+        <p><strong>• AI-First &amp; BI Visualization:</strong> AI Agent Workflow Orchestration, Prompt Engineering for ETL/SQL Auditing, Executive Dashboard Design, Visual Data Storytelling.</p>
+      </div>
+    </section>
+
+    <!-- Technical Data Engineering Projects -->
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+        Featured Data Engineering &amp; AI Architecture Experience
+      </h2>
+      <div>
+        <div class="flex justify-between items-baseline">
+          <h3 class="text-sm font-bold text-slate-900">
+            End-to-End Big Data Lakehouse &amp; PySpark Streaming Stack (<code class="text-sky-700">bigdata-ai-stack</code>)
+          </h3>
+          <span class="text-xs font-semibold text-slate-600">Lead Data Engineer (Portfolio Project) | 2026</span>
+        </div>
+        <ul class="list-disc list-inside text-xs text-slate-800 space-y-1 mt-1.5 leading-relaxed">
+          <li><strong>Medallion ELT Architecture (Bronze $\rightarrow$ Silver $\rightarrow$ Gold):</strong> Engineered an automated analytical pipeline in Python and DuckDB SQL processing <strong>52,022+ raw transactional records</strong>, purging <strong>4,549 corrupt/duplicate rows</strong> via Primary Key Window Functions (<code>QUALIFY ROW_NUMBER() OVER (PARTITION BY id_venta)</code>) and reducing storage footprint by <strong>84.0%</strong> (<code>1,784 KB</code> CSV $\rightarrow$ <code>286 KB</code> Apache Parquet ZSTD) in <strong>0.48 seconds</strong>.</li>
+          <li><strong>Star Schema Dimensional Modeling:</strong> Designed a Double Star-Schema JOIN uniting fact transactions (<code>fact_ventas</code>) with customer and product dimensions (<code>dim_clientes</code>, <code>dim_productos</code>) to build executive Gold KPI tables, reconciling <strong>$3,612,580.00 USD</strong> in corporate <code>'Enterprise'</code> revenue in <code>'Mexico'</code> segmented across 4 product categories.</li>
+          <li><strong>Real-Time PySpark Structured Streaming &amp; Quarantine:</strong> Scaled ingestion to real-time micro-batches using explicit <code>StructType</code> contracts, stateful watermarking (<code>withWatermark</code>), and <code>F.broadcast()</code> hash joins. Implemented a <strong>Dead-Letter Quarantine table</strong> (<code>quarantine_errores_stream.parquet</code>) that intercepted <strong>78 live anomalies</strong> (inter-batch duplicates, orphan product keys <code>id=999</code>, negative refunds, and nulls) with 0% silent data loss.</li>
+          <li><strong>Automated Data Quality &amp; Financial Reconciliation Suite:</strong> Built a <strong>10-test SQL Observability Auditor</strong> (<code>agente_auditor_sql.py</code>) certifying PK uniqueness, referential integrity, and cent-exact financial balance between Silver, Gold, and Streaming layers.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+        Professional Experience
+      </h2>
+      <div class="space-y-3">
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="text-sm font-bold text-slate-900">
+              Director of Digital Operations, AI Workflows &amp; Visual Strategy — <span class="text-sky-700">BlueBerry Digital</span>
+            </h3>
+            <span class="text-xs font-semibold text-slate-600">2007 – Present | Durango, MX &amp; US Clients</span>
+          </div>
+          <ul class="list-disc list-inside text-xs text-slate-800 space-y-1 mt-1 leading-relaxed">
+            <li>Led end-to-end digital production, campaign performance analysis, and AI-assisted workflow automation for <strong>800+ B2B clients across 6 Mexican states and the United States</strong> (healthcare, construction, hospitality, retail, NGOs, and commercial brands).</li>
+            <li>Pioneered the integration of <strong>Generative AI and automated data workflows</strong> into production pipelines, accelerating project delivery timelines and standardizing asset catalogs across <strong>5,000+ digital campaigns</strong> and <strong>2,000+ audiovisual productions</strong>.</li>
+            <li>Partnered directly with business owners and executive stakeholders (including <em>Grupo Aurora</em>, <em>Banthai Oriental Cuisine</em>, <em>Sunset Bar</em>, and <em>Las Mil y Una Noches</em>) to translate commercial objectives and customer segmentation into measurable digital growth.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Languages -->
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-1">
+      <div>
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+          Education &amp; Certifications
+        </h2>
+        <ul class="text-xs text-slate-800 space-y-1">
+          <li><strong>Instituto Tecnológico de Durango (ITD)</strong> — Foreign Language Diploma &amp; <strong>Institutional TOEFL Certification</strong>.</li>
+          <li><strong>AI-First Big Data &amp; Lakehouse Engineering</strong> — Practical Specialization in SQL, Python, DuckDB, Apache Parquet &amp; PySpark.</li>
+          <li><strong>Colegio de Bachilleres Lomas</strong> — High School Diploma.</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+          Languages &amp; Remote Readiness
+        </h2>
+        <ul class="text-xs text-slate-800 space-y-1">
+          <li><strong>Spanish:</strong> Native Speaker.</li>
+          <li><strong>English:</strong> Advanced Professional Proficiency (TOEFL Certified — Experienced collaborating with US clients).</li>
+          <li><strong>Time Zone:</strong> CST (UTC-6) — 100% overlap with US Central/Eastern &amp; LATAM teams.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <!-- HOJA DE CV EN ESPAÑOL -->
+  <div id="cv-es" class="cv-sheet hidden max-w-4xl mx-auto bg-white border border-slate-200 rounded-xl shadow-md p-8 md:p-10 space-y-5">
+    <header class="border-b-2 border-slate-800 pb-4 flex flex-col md:flex-row md:items-end justify-between gap-3">
+      <div>
+        <h1 class="text-2xl md:text-3xl font-extrabold tracking-tight text-slate-900 uppercase">
+          José Luis Herrera Reyna
+        </h1>
+        <p class="text-base font-bold text-sky-700 mt-0.5">
+          Ingeniero de Datos &amp; Analytics (AI-First) | SQL • Python • PySpark • Lakehouse Medallion • BI
+        </p>
+      </div>
+      <div class="text-xs md:text-right space-y-0.5 text-slate-700 font-medium">
+        <p>📍 Durango, México (Disponible Remoto EE. UU. / LATAM / México)</p>
+        <p>📧 luisblueberry@gmail.com &nbsp;|&nbsp; 📱 +52 618 332 9565</p>
+        <p>💻 GitHub: <span class="text-sky-700 font-semibold">github.com/blueberrymx/bigdata-ai-stack</span></p>
+      </div>
+    </header>
+
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+        Perfil Profesional
+      </h2>
+      <p class="text-xs leading-relaxed text-slate-800">
+        <strong>Ingeniero de Datos y Analytics (AI-First)</strong> especializado en diseño de <strong>Arquitectura Medallion (Bronze/Silver/Gold), Esquema Estrella, SQL avanzado, Python, DuckDB, Apache Parquet y PySpark Structured Streaming</strong>, respaldado por <strong>más de 20 años de trayectoria liderando operaciones digitales y comunicación visual ejecutiva</strong> para <strong>más de 800 clientes en México y Estados Unidos</strong>. Experto en combinar ingeniería de datos rigurosa (pruebas automatizadas de calidad y reconciliación contable) con Agentes de IA y claridad visual para entregar reportes ejecutivos de alto impacto en tiempo récord.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+        Stack Tecnológico y Competencias
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1.5 text-xs text-slate-800">
+        <p><strong>• Ingeniería de Datos &amp; Lakehouse:</strong> Arquitectura Medallion (Bronze/Silver/Gold), Esquema Estrella (Hechos y Dimensiones), Apache Parquet (Compresión ZSTD).</p>
+        <p><strong>• Motores SQL &amp; Procesamiento:</strong> SQL Analítico (JOINs múltiples, Window Functions <code>QUALIFY ROW_NUMBER</code>, GROUP BY), DuckDB OLAP, Python 3.12, PySpark Structured Streaming.</p>
+        <p><strong>• Streaming &amp; Calidad de Datos:</strong> Deduplicación con Watermarking (<code>withWatermark</code>), Broadcast Joins (<code>F.broadcast</code>), Tabla de Cuarentena (Dead-Letter Queue), 10 Tests de Auditoría SQL.</p>
+        <p><strong>• Flujos AI-First &amp; Visualización:</strong> Orquestación de Agentes de IA para desarrollo ELT, Auditoría automatizada de código, Storytelling Ejecutivo de Datos.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+        Proyectos Destacados de Ingeniería de Datos
+      </h2>
+      <div>
+        <div class="flex justify-between items-baseline">
+          <h3 class="text-sm font-bold text-slate-900">
+            Big Data Lakehouse &amp; PySpark Real-Time Streaming Stack (<code class="text-sky-700">bigdata-ai-stack</code>)
+          </h3>
+          <span class="text-xs font-semibold text-slate-600">Data Engineer | 2026</span>
+        </div>
+        <ul class="list-disc list-inside text-xs text-slate-800 space-y-1 mt-1.5 leading-relaxed">
+          <li><strong>Pipeline ELT Medallion (Bronze $\rightarrow$ Silver $\rightarrow$ Gold):</strong> Procesamiento de <strong>52,022 registros transaccionales</strong>, eliminando <strong>4,549 filas basura</strong> (duplicados, devoluciones negativas y nulos) con Window Functions y logrando un <strong>ahorro de 84.0% en disco</strong> (de <code>1,784 KB</code> en CSV a <code>286 KB</code> en Parquet ZSTD) en <strong>0.48 segundos</strong>.</li>
+          <li><strong>Modelado en Esquema Estrella (Doble JOIN):</strong> Cruce relacional entre <code>fact_ventas</code>, <code>dim_clientes</code> (<code>id_cliente</code>) y <code>dim_productos</code> (<code>id_producto</code>) para construir el reporte corporativo Gold del segmento <code>'Enterprise'</code> en <code>'Mexico'</code> por categoría (<strong>$3,612,580.00 USD</strong> reconciliados).</li>
+          <li><strong>Streaming en Tiempo Real con PySpark y Cuarentena:</strong> Implementación de ingesta en micro-lotes con esquema estricto <code>StructType</code>, <code>withWatermark</code> y <code>Broadcast Joins</code>, aislando <strong>78 anomalías en vivo</strong> en una tabla de cuarentena (<code>quarantine_errores_stream.parquet</code>) sin detener la operación.</li>
+          <li><strong>Auditoría Automatizada de Calidad (10 Tests SQL):</strong> Certificación automática de unicidad de llaves, integridad referencial y balance contable exacto entre capas.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+        Experiencia Profesional
+      </h2>
+      <div>
+        <div class="flex justify-between items-baseline">
+          <h3 class="text-sm font-bold text-slate-900">
+            Director de Operaciones Digitales, Estrategia Visual &amp; Flujos IA — <span class="text-sky-700">BlueBerry Digital</span>
+          </h3>
+          <span class="text-xs font-semibold text-slate-600">2007 – Actualidad | Durango, MX y EE. UU.</span>
+        </div>
+        <ul class="list-disc list-inside text-xs text-slate-800 space-y-1 mt-1 leading-relaxed">
+          <li>Dirección integral de proyectos digitales, análisis comercial y automatización con Inteligencia Artificial para <strong>más de 800 clientes en 6 estados de México y Estados Unidos</strong> (hospitales, constructoras, sector gastronómico, agencias y marcas comerciales).</li>
+          <li>Implementación de <strong>herramientas de Inteligencia Artificial y estandarización de catálogos digitales</strong> para optimizar tiempos de entrega en más de <strong>5,000 campañas publicitarias</strong> y <strong>2,000 producciones audiovisuales</strong>.</li>
+          <li>Consultoría directa para grupos empresariales (<em>Grupo Aurora</em>, <em>Banthai Oriental Cuisine</em>, <em>Sunset Bar</em>, <em>Las Mil y Una Noches</em>), conectando métricas de negocio y segmentación de clientes con comunicación visual orientada a resultados.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-1">
+      <div>
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+          Formación Académica y Certificaciones
+        </h2>
+        <ul class="text-xs text-slate-800 space-y-1">
+          <li><strong>Instituto Tecnológico de Durango (ITD)</strong> — Diplomado en Lengua Extranjera y <strong>Certificación TOEFL Institucional</strong>.</li>
+          <li><strong>Ingeniería de Datos &amp; Arquitecturas Lakehouse con IA</strong> — Especialización práctica en SQL, Python, DuckDB, Parquet y PySpark.</li>
+          <li><strong>Colegio de Bachilleres Lomas</strong> — Nivel Medio Superior.</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-xs font-bold uppercase tracking-wider text-slate-500 border-b border-slate-200 pb-1 mb-2">
+          Idiomas y Disponibilidad
+        </h2>
+        <ul class="text-xs text-slate-800 space-y-1">
+          <li><strong>Español:</strong> Nativo.</li>
+          <li><strong>Inglés:</strong> Avanzado (Certificación TOEFL — Experiencia trabajando con clientes en EE. UU.).</li>
+          <li><strong>Modalidad:</strong> 100% Remoto (Zona horaria CST compatible con EE. UU. y LATAM).</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function setLang(lang) {
+      document.getElementById('cv-en').classList.toggle('hidden', lang !== 'en');
+      document.getElementById('cv-es').classList.toggle('hidden', lang !== 'es');
+      document.getElementById('btn-en').className = lang === 'en'
+        ? "px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-500 text-slate-950 transition"
+        : "px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-200 hover:bg-slate-700 transition";
+      document.getElementById('btn-es').className = lang === 'es'
+        ? "px-3 py-1.5 rounded-lg text-xs font-semibold bg-emerald-500 text-slate-950 transition"
+        : "px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-800 text-slate-200 hover:bg-slate-700 transition";
+    }
+  </script>
+</body>
+</html>

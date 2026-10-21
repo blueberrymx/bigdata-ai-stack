@@ -1,0 +1,501 @@
+id_cliente,nombre_cliente,pais,segmento
+1001,Luis_1001,Mexico,Consumidor
+1002,Carlos_1002,Colombia,Enterprise
+1003,Marta_1003,Estados Unidos,Enterprise
+1004,Jorge_1004,Mexico,Consumidor
+1005,Diego_1005,Mexico,Enterprise
+1006,Luis_1006,Colombia,Enterprise
+1007,Jorge_1007,Chile,Enterprise
+1008,Jorge_1008,Colombia,Consumidor
+1009,Jorge_1009,Argentina,Enterprise
+1010,Valeria_1010,Chile,PyME
+1011,Ana_1011,Colombia,Consumidor
+1012,Diego_1012,España,PyME
+1013,Marta_1013,Colombia,PyME
+1014,Luis_1014,Mexico,PyME
+1015,Luis_1015,España,PyME
+1016,Elena_1016,España,Enterprise
+1017,Valeria_1017,Chile,Enterprise
+1018,Diego_1018,Mexico,Consumidor
+1019,Carlos_1019,Estados Unidos,Consumidor
+1020,Sofia_1020,Chile,Enterprise
+1021,Luis_1021,Mexico,Consumidor
+1022,Pedro_1022,España,Enterprise
+1023,Pedro_1023,Mexico,PyME
+1024,Carlos_1024,Argentina,Consumidor
+1025,Sofia_1025,Colombia,PyME
+1026,Sofia_1026,Colombia,Consumidor
+1027,Carlos_1027,Estados Unidos,Consumidor
+1028,Luis_1028,Chile,Consumidor
+1029,Marta_1029,Chile,Consumidor
+1030,Pedro_1030,Colombia,PyME
+1031,Diego_1031,España,Consumidor
+1032,Jorge_1032,Colombia,Consumidor
+1033,Sofia_1033,Mexico,Enterprise
+1034,Ana_1034,España,PyME
+1035,Carlos_1035,Mexico,Enterprise
+1036,Elena_1036,Estados Unidos,PyME
+1037,Pedro_1037,Estados Unidos,PyME
+1038,Diego_1038,Estados Unidos,PyME
+1039,Marta_1039,España,Enterprise
+1040,Pedro_1040,Estados Unidos,Consumidor
+1041,Jorge_1041,España,Consumidor
+1042,Elena_1042,Argentina,Consumidor
+1043,Diego_1043,España,Enterprise
+1044,Marta_1044,Chile,PyME
+1045,Luis_1045,Mexico,Enterprise
+1046,Marta_1046,Estados Unidos,Enterprise
+1047,Diego_1047,Chile,Enterprise
+1048,Diego_1048,Argentina,Consumidor
+1049,Valeria_1049,Chile,PyME
+1050,Jorge_1050,Mexico,Consumidor
+1051,Luis_1051,Estados Unidos,Consumidor
+1052,Carlos_1052,Estados Unidos,PyME
+1053,Luis_1053,España,PyME
+1054,Marta_1054,Argentina,Enterprise
+1055,Carlos_1055,Chile,Enterprise
+1056,Jorge_1056,Mexico,Consumidor
+1057,Carlos_1057,Estados Unidos,Consumidor
+1058,Elena_1058,Colombia,Enterprise
+1059,Sofia_1059,Colombia,Consumidor
+1060,Jorge_1060,Mexico,Consumidor
+1061,Sofia_1061,Argentina,Enterprise
+1062,Luis_1062,España,PyME
+1063,Pedro_1063,Mexico,Enterprise
+1064,Elena_1064,Mexico,Enterprise
+1065,Valeria_1065,Mexico,Consumidor
+1066,Marta_1066,Colombia,Consumidor
+1067,Valeria_1067,Chile,Enterprise
+1068,Carlos_1068,Chile,Consumidor
+1069,Diego_1069,Colombia,Consumidor
+1070,Pedro_1070,Estados Unidos,PyME
+1071,Diego_1071,Estados Unidos,Consumidor
+1072,Sofia_1072,Argentina,Consumidor
+1073,Valeria_1073,Mexico,Enterprise
+1074,Pedro_1074,Mexico,PyME
+1075,Ana_1075,Chile,Consumidor
+1076,Pedro_1076,Chile,Enterprise
+1077,Ana_1077,Mexico,Consumidor
+1078,Ana_1078,Colombia,Enterprise
+1079,Ana_1079,España,Enterprise
+1080,Jorge_1080,Colombia,PyME
+1081,Valeria_1081,Colombia,Consumidor
+1082,Marta_1082,Estados Unidos,Consumidor
+1083,Elena_1083,Argentina,Enterprise
+1084,Valeria_1084,Argentina,Enterprise
+1085,Luis_1085,Mexico,Consumidor
+1086,Diego_1086,España,PyME
+1087,Diego_1087,Argentina,Consumidor
+1088,Ana_1088,Estados Unidos,Consumidor
+1089,Luis_1089,Mexico,PyME
+1090,Sofia_1090,Mexico,Enterprise
+1091,Pedro_1091,Colombia,Consumidor
+1092,Valeria_1092,Colombia,PyME
+1093,Marta_1093,España,PyME
+1094,Pedro_1094,Mexico,PyME
+1095,Jorge_1095,Mexico,Enterprise
+1096,Jorge_1096,Mexico,Enterprise
+1097,Pedro_1097,Colombia,PyME
+1098,Valeria_1098,Argentina,Enterprise
+1099,Diego_1099,Mexico,Enterprise
+1100,Diego_1100,Mexico,PyME
+1101,Carlos_1101,Argentina,PyME
+1102,Diego_1102,Estados Unidos,Consumidor
+1103,Jorge_1103,Estados Unidos,Consumidor
+1104,Valeria_1104,Colombia,Enterprise
+1105,Carlos_1105,Colombia,Enterprise
+1106,Elena_1106,Estados Unidos,Consumidor
+1107,Ana_1107,Estados Unidos,PyME
+1108,Ana_1108,Mexico,Consumidor
+1109,Valeria_1109,Chile,Consumidor
+1110,Marta_1110,Mexico,Consumidor
+1111,Luis_1111,Colombia,Enterprise
+1112,Elena_1112,Mexico,Consumidor
+1113,Pedro_1113,Argentina,Enterprise
+1114,Elena_1114,Colombia,Consumidor
+1115,Elena_1115,Mexico,Consumidor
+1116,Luis_1116,Argentina,Consumidor
+1117,Elena_1117,Chile,Consumidor
+1118,Sofia_1118,España,Enterprise
+1119,Sofia_1119,Colombia,PyME
+1120,Diego_1120,Colombia,Consumidor
+1121,Carlos_1121,Argentina,PyME
+1122,Luis_1122,Mexico,PyME
+1123,Elena_1123,Chile,Enterprise
+1124,Luis_1124,Chile,Enterprise
+1125,Jorge_1125,España,Enterprise
+1126,Sofia_1126,Mexico,Enterprise
+1127,Sofia_1127,España,Enterprise
+1128,Valeria_1128,Chile,Consumidor
+1129,Carlos_1129,Chile,Consumidor
+1130,Jorge_1130,Mexico,Consumidor
+1131,Jorge_1131,España,Consumidor
+1132,Luis_1132,Colombia,PyME
+1133,Luis_1133,Mexico,Consumidor
+1134,Jorge_1134,Colombia,PyME
+1135,Carlos_1135,Chile,Enterprise
+1136,Sofia_1136,Colombia,Consumidor
+1137,Carlos_1137,Chile,PyME
+1138,Carlos_1138,Mexico,Enterprise
+1139,Diego_1139,España,Enterprise
+1140,Ana_1140,España,Enterprise
+1141,Carlos_1141,Colombia,Consumidor
+1142,Valeria_1142,Chile,Consumidor
+1143,Diego_1143,Chile,Enterprise
+1144,Luis_1144,Mexico,Consumidor
+1145,Marta_1145,Chile,Enterprise
+1146,Sofia_1146,Chile,Consumidor
+1147,Marta_1147,Argentina,Enterprise
+1148,Ana_1148,España,PyME
+1149,Ana_1149,España,Enterprise
+1150,Pedro_1150,Estados Unidos,Enterprise
+1151,Sofia_1151,Chile,PyME
+1152,Elena_1152,Estados Unidos,Enterprise
+1153,Pedro_1153,Colombia,Enterprise
+1154,Diego_1154,Mexico,Enterprise
+1155,Sofia_1155,Argentina,Consumidor
+1156,Pedro_1156,España,Enterprise
+1157,Luis_1157,Argentina,Enterprise
+1158,Valeria_1158,Colombia,Enterprise
+1159,Valeria_1159,España,PyME
+1160,Pedro_1160,Colombia,Enterprise
+1161,Pedro_1161,Argentina,PyME
+1162,Carlos_1162,Mexico,PyME
+1163,Sofia_1163,Estados Unidos,Consumidor
+1164,Diego_1164,Estados Unidos,Consumidor
+1165,Sofia_1165,Mexico,Enterprise
+1166,Carlos_1166,Colombia,Consumidor
+1167,Carlos_1167,Mexico,Enterprise
+1168,Elena_1168,Argentina,PyME
+1169,Sofia_1169,Argentina,Consumidor
+1170,Jorge_1170,Mexico,PyME
+1171,Elena_1171,Colombia,PyME
+1172,Ana_1172,Estados Unidos,PyME
+1173,Ana_1173,Chile,Consumidor
+1174,Pedro_1174,España,PyME
+1175,Luis_1175,Estados Unidos,PyME
+1176,Elena_1176,España,Consumidor
+1177,Luis_1177,Estados Unidos,PyME
+1178,Jorge_1178,España,Consumidor
+1179,Diego_1179,España,PyME
+1180,Carlos_1180,Chile,Enterprise
+1181,Pedro_1181,Argentina,Consumidor
+1182,Diego_1182,Estados Unidos,Consumidor
+1183,Marta_1183,Chile,Consumidor
+1184,Carlos_1184,Argentina,Consumidor
+1185,Ana_1185,España,PyME
+1186,Pedro_1186,Argentina,Consumidor
+1187,Elena_1187,Estados Unidos,PyME
+1188,Valeria_1188,Argentina,PyME
+1189,Pedro_1189,Chile,PyME
+1190,Marta_1190,Estados Unidos,Enterprise
+1191,Carlos_1191,Chile,Consumidor
+1192,Elena_1192,España,Enterprise
+1193,Pedro_1193,Estados Unidos,PyME
+1194,Pedro_1194,Colombia,Enterprise
+1195,Ana_1195,Mexico,Enterprise
+1196,Valeria_1196,Chile,Enterprise
+1197,Valeria_1197,Argentina,Consumidor
+1198,Elena_1198,Colombia,Consumidor
+1199,Diego_1199,Argentina,PyME
+1200,Pedro_1200,Colombia,Consumidor
+1201,Ana_1201,Mexico,PyME
+1202,Pedro_1202,Colombia,Consumidor
+1203,Jorge_1203,Argentina,Enterprise
+1204,Jorge_1204,Colombia,Enterprise
+1205,Valeria_1205,Colombia,PyME
+1206,Jorge_1206,Chile,Consumidor
+1207,Sofia_1207,Argentina,Consumidor
+1208,Jorge_1208,Argentina,Consumidor
+1209,Valeria_1209,Colombia,Consumidor
+1210,Valeria_1210,Argentina,PyME
+1211,Pedro_1211,Estados Unidos,PyME
+1212,Jorge_1212,Argentina,Consumidor
+1213,Pedro_1213,España,PyME
+1214,Luis_1214,Estados Unidos,PyME
+1215,Pedro_1215,España,PyME
+1216,Sofia_1216,Chile,Enterprise
+1217,Marta_1217,Colombia,Enterprise
+1218,Diego_1218,Estados Unidos,Enterprise
+1219,Pedro_1219,Mexico,PyME
+1220,Diego_1220,España,Consumidor
+1221,Valeria_1221,Argentina,Enterprise
+1222,Pedro_1222,Argentina,PyME
+1223,Elena_1223,Estados Unidos,Enterprise
+1224,Elena_1224,Argentina,PyME
+1225,Ana_1225,España,PyME
+1226,Diego_1226,Argentina,Consumidor
+1227,Jorge_1227,Chile,Enterprise
+1228,Valeria_1228,Colombia,PyME
+1229,Diego_1229,Argentina,Enterprise
+1230,Diego_1230,España,Consumidor
+1231,Diego_1231,Estados Unidos,Enterprise
+1232,Valeria_1232,Colombia,Consumidor
+1233,Jorge_1233,Mexico,PyME
+1234,Elena_1234,Chile,Consumidor
+1235,Ana_1235,Mexico,Consumidor
+1236,Diego_1236,Colombia,PyME
+1237,Marta_1237,Mexico,PyME
+1238,Diego_1238,España,Enterprise
+1239,Valeria_1239,España,PyME
+1240,Diego_1240,España,PyME
+1241,Carlos_1241,Mexico,PyME
+1242,Ana_1242,Estados Unidos,Consumidor
+1243,Ana_1243,España,Enterprise
+1244,Luis_1244,Estados Unidos,Enterprise
+1245,Ana_1245,Colombia,Enterprise
+1246,Ana_1246,Chile,Enterprise
+1247,Pedro_1247,Colombia,PyME
+1248,Luis_1248,Chile,Enterprise
+1249,Valeria_1249,Estados Unidos,PyME
+1250,Sofia_1250,Colombia,Consumidor
+1251,Elena_1251,Estados Unidos,Consumidor
+1252,Luis_1252,Colombia,PyME
+1253,Luis_1253,Chile,Enterprise
+1254,Carlos_1254,Chile,Consumidor
+1255,Diego_1255,Argentina,Consumidor
+1256,Pedro_1256,Mexico,Consumidor
+1257,Pedro_1257,Mexico,Consumidor
+1258,Carlos_1258,Estados Unidos,Consumidor
+1259,Luis_1259,Chile,Enterprise
+1260,Sofia_1260,Chile,PyME
+1261,Sofia_1261,Mexico,Consumidor
+1262,Sofia_1262,Mexico,PyME
+1263,Valeria_1263,Mexico,PyME
+1264,Sofia_1264,Estados Unidos,PyME
+1265,Marta_1265,Argentina,Enterprise
+1266,Jorge_1266,Estados Unidos,PyME
+1267,Elena_1267,Chile,PyME
+1268,Valeria_1268,Argentina,Consumidor
+1269,Elena_1269,España,PyME
+1270,Pedro_1270,Mexico,PyME
+1271,Valeria_1271,Colombia,PyME
+1272,Elena_1272,Chile,Consumidor
+1273,Diego_1273,España,Enterprise
+1274,Valeria_1274,España,Enterprise
+1275,Valeria_1275,Colombia,PyME
+1276,Carlos_1276,España,PyME
+1277,Elena_1277,Estados Unidos,PyME
+1278,Jorge_1278,Mexico,Consumidor
+1279,Pedro_1279,Mexico,Enterprise
+1280,Diego_1280,Argentina,Consumidor
+1281,Pedro_1281,Estados Unidos,PyME
+1282,Valeria_1282,Argentina,Enterprise
+1283,Luis_1283,España,Enterprise
+1284,Diego_1284,Estados Unidos,Enterprise
+1285,Carlos_1285,Estados Unidos,Consumidor
+1286,Sofia_1286,Argentina,Consumidor
+1287,Jorge_1287,España,PyME
+1288,Jorge_1288,España,PyME
+1289,Valeria_1289,España,PyME
+1290,Carlos_1290,Colombia,Enterprise
+1291,Pedro_1291,España,Enterprise
+1292,Jorge_1292,Estados Unidos,Enterprise
+1293,Pedro_1293,Colombia,Consumidor
+1294,Valeria_1294,España,Consumidor
+1295,Elena_1295,Chile,Consumidor
+1296,Carlos_1296,Mexico,Enterprise
+1297,Carlos_1297,Colombia,PyME
+1298,Marta_1298,España,Enterprise
+1299,Jorge_1299,Colombia,PyME
+1300,Ana_1300,Mexico,Consumidor
+1301,Carlos_1301,Estados Unidos,Enterprise
+1302,Valeria_1302,Mexico,Enterprise
+1303,Elena_1303,España,PyME
+1304,Valeria_1304,Argentina,PyME
+1305,Marta_1305,Mexico,PyME
+1306,Valeria_1306,Mexico,Enterprise
+1307,Diego_1307,Argentina,Enterprise
+1308,Elena_1308,Estados Unidos,Consumidor
+1309,Ana_1309,Colombia,Enterprise
+1310,Elena_1310,España,Enterprise
+1311,Pedro_1311,Mexico,Consumidor
+1312,Diego_1312,Chile,Consumidor
+1313,Elena_1313,Colombia,Consumidor
+1314,Diego_1314,Argentina,PyME
+1315,Carlos_1315,Chile,PyME
+1316,Carlos_1316,Chile,Consumidor
+1317,Ana_1317,Chile,Consumidor
+1318,Luis_1318,Colombia,Consumidor
+1319,Pedro_1319,España,Consumidor
+1320,Luis_1320,Colombia,Enterprise
+1321,Marta_1321,Chile,Enterprise
+1322,Marta_1322,Mexico,PyME
+1323,Valeria_1323,Estados Unidos,Consumidor
+1324,Valeria_1324,España,Enterprise
+1325,Pedro_1325,España,Consumidor
+1326,Carlos_1326,Estados Unidos,PyME
+1327,Luis_1327,Estados Unidos,Enterprise
+1328,Carlos_1328,Estados Unidos,Consumidor
+1329,Pedro_1329,Argentina,Enterprise
+1330,Jorge_1330,Colombia,Consumidor
+1331,Marta_1331,España,Enterprise
+1332,Luis_1332,Mexico,Enterprise
+1333,Carlos_1333,Chile,Consumidor
+1334,Elena_1334,España,PyME
+1335,Luis_1335,Argentina,Consumidor
+1336,Carlos_1336,Estados Unidos,PyME
+1337,Carlos_1337,Chile,Consumidor
+1338,Valeria_1338,Argentina,Enterprise
+1339,Elena_1339,Mexico,PyME
+1340,Sofia_1340,Chile,PyME
+1341,Ana_1341,Mexico,Enterprise
+1342,Elena_1342,Chile,Enterprise
+1343,Carlos_1343,Chile,Enterprise
+1344,Marta_1344,Argentina,Consumidor
+1345,Valeria_1345,España,Enterprise
+1346,Elena_1346,Argentina,Consumidor
+1347,Valeria_1347,Mexico,PyME
+1348,Sofia_1348,Argentina,PyME
+1349,Sofia_1349,Estados Unidos,Enterprise
+1350,Marta_1350,España,PyME
+1351,Valeria_1351,España,Consumidor
+1352,Diego_1352,Chile,Enterprise
+1353,Valeria_1353,Mexico,PyME
+1354,Carlos_1354,España,Enterprise
+1355,Diego_1355,Chile,Enterprise
+1356,Jorge_1356,Argentina,PyME
+1357,Ana_1357,Colombia,Consumidor
+1358,Sofia_1358,Chile,PyME
+1359,Valeria_1359,Mexico,Enterprise
+1360,Carlos_1360,Chile,Enterprise
+1361,Carlos_1361,Argentina,Consumidor
+1362,Valeria_1362,Mexico,Enterprise
+1363,Elena_1363,Colombia,Consumidor
+1364,Marta_1364,España,Consumidor
+1365,Ana_1365,Chile,PyME
+1366,Luis_1366,Colombia,Enterprise
+1367,Valeria_1367,Mexico,Consumidor
+1368,Marta_1368,Argentina,Consumidor
+1369,Carlos_1369,Chile,Consumidor
+1370,Carlos_1370,Argentina,PyME
+1371,Valeria_1371,Colombia,PyME
+1372,Jorge_1372,Colombia,PyME
+1373,Pedro_1373,Chile,Consumidor
+1374,Marta_1374,Mexico,PyME
+1375,Diego_1375,España,Consumidor
+1376,Carlos_1376,Mexico,PyME
+1377,Carlos_1377,Chile,Consumidor
+1378,Valeria_1378,Colombia,PyME
+1379,Jorge_1379,Argentina,PyME
+1380,Sofia_1380,Chile,Consumidor
+1381,Diego_1381,Argentina,PyME
+1382,Pedro_1382,Estados Unidos,Enterprise
+1383,Elena_1383,Argentina,Enterprise
+1384,Diego_1384,Mexico,PyME
+1385,Valeria_1385,Estados Unidos,PyME
+1386,Diego_1386,Estados Unidos,Consumidor
+1387,Marta_1387,Argentina,Enterprise
+1388,Marta_1388,Chile,Consumidor
+1389,Sofia_1389,Mexico,PyME
+1390,Luis_1390,Chile,PyME
+1391,Ana_1391,Estados Unidos,Enterprise
+1392,Diego_1392,Estados Unidos,Enterprise
+1393,Luis_1393,Argentina,PyME
+1394,Sofia_1394,Chile,Consumidor
+1395,Diego_1395,Estados Unidos,Enterprise
+1396,Sofia_1396,Estados Unidos,Consumidor
+1397,Diego_1397,España,Consumidor
+1398,Valeria_1398,Chile,Enterprise
+1399,Elena_1399,Mexico,Enterprise
+1400,Carlos_1400,Colombia,Consumidor
+1401,Luis_1401,Argentina,Enterprise
+1402,Luis_1402,Argentina,Enterprise
+1403,Carlos_1403,Mexico,Enterprise
+1404,Sofia_1404,Mexico,PyME
+1405,Sofia_1405,España,PyME
+1406,Marta_1406,Colombia,Consumidor
+1407,Diego_1407,Chile,Consumidor
+1408,Marta_1408,Colombia,Enterprise
+1409,Luis_1409,Chile,PyME
+1410,Elena_1410,Estados Unidos,Enterprise
+1411,Valeria_1411,Chile,Enterprise
+1412,Pedro_1412,Argentina,Consumidor
+1413,Carlos_1413,Argentina,PyME
+1414,Ana_1414,Argentina,PyME
+1415,Jorge_1415,Colombia,Enterprise
+1416,Valeria_1416,España,Consumidor
+1417,Carlos_1417,Estados Unidos,PyME
+1418,Carlos_1418,Argentina,PyME
+1419,Pedro_1419,Argentina,PyME
+1420,Luis_1420,Colombia,PyME
+1421,Elena_1421,España,Consumidor
+1422,Carlos_1422,Estados Unidos,PyME
+1423,Ana_1423,Estados Unidos,PyME
+1424,Carlos_1424,Mexico,Consumidor
+1425,Ana_1425,Chile,Consumidor
+1426,Valeria_1426,España,Enterprise
+1427,Elena_1427,España,Enterprise
+1428,Pedro_1428,Chile,PyME
+1429,Marta_1429,Estados Unidos,Enterprise
+1430,Ana_1430,España,PyME
+1431,Ana_1431,Chile,PyME
+1432,Marta_1432,Mexico,PyME
+1433,Sofia_1433,Estados Unidos,PyME
+1434,Marta_1434,Colombia,Enterprise
+1435,Jorge_1435,España,Consumidor
+1436,Jorge_1436,España,Enterprise
+1437,Carlos_1437,Argentina,PyME
+1438,Sofia_1438,Mexico,PyME
+1439,Luis_1439,Colombia,Enterprise
+1440,Diego_1440,Chile,PyME
+1441,Luis_1441,Argentina,Enterprise
+1442,Carlos_1442,Chile,Enterprise
+1443,Valeria_1443,España,Consumidor
+1444,Carlos_1444,Chile,PyME
+1445,Sofia_1445,Mexico,Consumidor
+1446,Pedro_1446,Argentina,Enterprise
+1447,Elena_1447,Chile,PyME
+1448,Elena_1448,Colombia,Consumidor
+1449,Luis_1449,Estados Unidos,PyME
+1450,Carlos_1450,Estados Unidos,PyME
+1451,Luis_1451,Colombia,Enterprise
+1452,Ana_1452,España,PyME
+1453,Luis_1453,Mexico,Enterprise
+1454,Jorge_1454,Colombia,PyME
+1455,Valeria_1455,España,Consumidor
+1456,Jorge_1456,Argentina,Consumidor
+1457,Marta_1457,Argentina,Consumidor
+1458,Luis_1458,Argentina,Consumidor
+1459,Diego_1459,España,Enterprise
+1460,Sofia_1460,Colombia,PyME
+1461,Valeria_1461,Colombia,PyME
+1462,Luis_1462,Estados Unidos,PyME
+1463,Jorge_1463,Estados Unidos,PyME
+1464,Ana_1464,Argentina,PyME
+1465,Pedro_1465,Mexico,PyME
+1466,Luis_1466,Estados Unidos,Enterprise
+1467,Elena_1467,Mexico,Enterprise
+1468,Sofia_1468,Colombia,Enterprise
+1469,Elena_1469,Colombia,Enterprise
+1470,Jorge_1470,Colombia,Consumidor
+1471,Pedro_1471,Colombia,PyME
+1472,Marta_1472,Chile,Enterprise
+1473,Carlos_1473,Colombia,Enterprise
+1474,Jorge_1474,España,Enterprise
+1475,Luis_1475,Estados Unidos,Enterprise
+1476,Marta_1476,Mexico,PyME
+1477,Pedro_1477,Chile,PyME
+1478,Ana_1478,Colombia,PyME
+1479,Ana_1479,Colombia,Consumidor
+1480,Diego_1480,Chile,Enterprise
+1481,Luis_1481,Argentina,PyME
+1482,Sofia_1482,Chile,Consumidor
+1483,Luis_1483,Argentina,Consumidor
+1484,Pedro_1484,Chile,Enterprise
+1485,Jorge_1485,España,PyME
+1486,Ana_1486,Mexico,PyME
+1487,Diego_1487,Argentina,Consumidor
+1488,Luis_1488,Argentina,Consumidor
+1489,Valeria_1489,Mexico,Enterprise
+1490,Sofia_1490,Chile,Enterprise
+1491,Luis_1491,Colombia,PyME
+1492,Elena_1492,Estados Unidos,Consumidor
+1493,Jorge_1493,Estados Unidos,PyME
+1494,Diego_1494,Chile,Consumidor
+1495,Carlos_1495,Argentina,Consumidor
+1496,Elena_1496,Argentina,Enterprise
+1497,Luis_1497,Estados Unidos,Consumidor
+1498,Jorge_1498,Estados Unidos,Enterprise
+1499,Diego_1499,Argentina,Enterprise
+1500,Diego_1500,España,PyME

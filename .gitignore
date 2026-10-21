@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Spark / Local checkpoints
+data/checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
